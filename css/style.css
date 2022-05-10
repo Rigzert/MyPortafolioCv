@@ -899,5 +899,20 @@ progress::-moz-progress-bar{
         font-weight: 600;
         text-transform: capitalize;
     }
-
+    .main-content{
+        width: 100%;
+    }
+    .about .about-content .about-text h3 span{
+        color:var(--primary-color);
+        font-size: 10px;
+    }
+    .contact-social-media .btn{
+        margin:10px auto;
+        align-items: center;
+        position:relative;
+        left:50px;
+    }
+    .contact-social-media .btn a{
+        color:var(--bg-black-900);
+    }
 }
