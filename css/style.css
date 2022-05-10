@@ -879,6 +879,11 @@ progress::-moz-progress-bar{
         box-shadow: 2px 2px 2px var(--primary-color);
     }
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> main
 @media (max-width:478px){
     .style-switcher{
         top:30px;
