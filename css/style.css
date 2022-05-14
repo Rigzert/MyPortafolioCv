@@ -871,7 +871,7 @@ progress::-moz-progress-bar{
     .about .about-content .skills,
     .about .about-content .personal-info{
         flex: 0  0 100%;
-        max-width: 100%;
+        max-width: 100%; 
     }
     .porfolio .porfolio-item-inner:hover{
         transform:scale(1.1);
@@ -879,17 +879,13 @@ progress::-moz-progress-bar{
         box-shadow: 2px 2px 2px var(--primary-color);
     }
 }
-<<<<<<< HEAD
 
-
-=======
->>>>>>> main
 @media (max-width:478px){
     .style-switcher{
         top:30px;
         margin-right: 100px;
         font-size: 6px;
-        display: flex;
+        display:flex;
         
     }
     .style-switcher .s-icon i{
@@ -920,4 +916,7 @@ progress::-moz-progress-bar{
     .contact-social-media .btn a{
         color:var(--bg-black-900);
     }
+  body{
+      background-color:olive;
+  }
 }
